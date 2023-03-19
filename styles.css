@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#animal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#animal-photo {
+  width: 300px;
+  height: 300px;
+}
+
+#animal-name {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+#right-arrow {
+  font-size: 24px;
+  padding: 5px 10px;
+}
